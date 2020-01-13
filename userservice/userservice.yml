@@ -8,8 +8,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/ecom
     username: root
-    password: "{cipher}33e3353d1004236c5a891541df2928fab7f3fe2475e1e9a2b73eac2511d8a01f"
+    password: '{cipher}33e3353d1004236c5a891541df2928fab7f3fe2475e1e9a2b73eac2511d8a01f'
     driver-class-name: com.mysql.cj.jdbc.Driver
-    
 server:
-  port: 8081    
+  port: 8081  
